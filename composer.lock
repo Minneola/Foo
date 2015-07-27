@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d121b6f2d0a5809359a4c417787bf7f5",
+    "packages": [
+        {
+            "name": "minneola/testfoo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Minneola/TestForTransfer.git",
+                "reference": "e25eb6a52c90c1a4d647a41e3fb82be9480ea2cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Minneola/TestForTransfer/zipball/e25eb6a52c90c1a4d647a41e3fb82be9480ea2cb",
+                "reference": "e25eb6a52c90c1a4d647a41e3fb82be9480ea2cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minneola\\TestFoo\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Tobias Maxham",
+                    "email": "git2015@maxham.de"
+                }
+            ],
+            "time": "2015-07-26 17:53:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "minneola/testfoo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
