@@ -7,3 +7,5 @@ $app->boot();
 
 
 
+echo Cain::call();
+
