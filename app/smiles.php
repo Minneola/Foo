@@ -13,6 +13,10 @@ Smile::get('/', function()
 
 
 
+
+Smile::get('/', 'SiffController@index');
+
+
 Smile::get('you', function()
 {
 

@@ -4,7 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = new \Minneola\TestFoo\Core\Application(realpath(__DIR__.'/../'));
 $app->boot();
-$app->run();
+echo $app->run();
 
 
 
