@@ -8,5 +8,7 @@
 
 
 return [
+	'App' => 'Minneola\\TestFoo\\Support\\Facades\\App',
 	'Cain' => 'Minneola\\TestFoo\\Support\\Facades\\Cain',
+	'Smile' => 'Minneola\\TestFoo\\Support\\Facades\\Smile',
 ];
