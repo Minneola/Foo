@@ -12,7 +12,7 @@ class SiffController extends BaseController
 
 	public function index()
 	{
-		$this->lyer('index');
+		$this->lyer('dashboard');
 		$this->addToken('headline', 'Hallo Welt');
 		$this->addToken('subline', 'An a Sub');
 	}
