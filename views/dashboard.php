@@ -111,35 +111,13 @@
 					</tr>
 					</thead>
 					<tbody>
-					<?php
 
-					$a = [
-						new \App\Breads\Test(),
-						new \App\Breads\Test(),
-						new \App\Breads\Test(),
-						new \App\Breads\Test(),
-					];
-
-					$a[0]->firstname = 'Leo';
-					$a[0]->lastname = 'Miller';
-					$a[0]->email = 'leo@miller.de';
-					$a[0]->phone = '07331 1234';
-					$a[0]->location = 'Stadt Alpha';
-
-					$a[1]->firstname = 'Fritz';
-					$a[1]->lastname = 'Wagner';
-					$a[1]->email = 'fritz@wagner.de';
-					$a[1]->phone = '07331 56789';
-					$a[1]->location = 'Stadt Beta';
-
-					?>
-
-					@foreach($a as $item)
+					@foreach($items as $item)
 					<tr>
 						<td></td>
-						<td><?php echo $item->firstname; ?></td>
-						<td><?php echo $item->lastname; ?></td>
-						<td><?php echo $item->email; ?></td>
+						<td>{{ $item->firstname }}</td>
+						<td>{{! $item->lastname !}}</td>
+						<td>{{ $item->email }}</td>
 						<td><?php echo $item->phone; ?></td>
 						<td><?php echo $item->location; ?></td>
 					</tr>
