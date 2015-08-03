@@ -29,6 +29,6 @@ Smile::get('/', function()
 });
 
 // Use a Controller
-Smile::get('/', 'SiffController@index');
+Smile::get('/dashboard', 'SiffController@index');
 
 ```

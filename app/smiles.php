@@ -8,13 +8,13 @@
 
 Smile::get('/', function()
 {
-
+	echo '<h1>It work\'s!</h1><span style="font-size: 14pt">Go to <a href="/dashboard">The Dashboard</a>.</span>';
 });
 
 
 
 
-Smile::get('/', 'SiffController@index');
+Smile::get('/dashboard', 'SiffController@index');
 
 
 Smile::get('you', function()
