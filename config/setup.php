@@ -1,14 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: tmaxham
- * Date: 27.07.2015
- * Time: 09:32
+ * This file is part of the Minneola Project.
+ * Copyright (c) 2016 Tobias Maxham <git2016@maxham.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ * Feel free to edit as you please, and have fun.
  */
 
-
 return [
-	'App' => 'Minneola\\TestFoo\\Support\\Facades\\App',
-	'Cain' => 'Minneola\\TestFoo\\Support\\Facades\\Cain',
-	'Smile' => 'Minneola\\TestFoo\\Support\\Facades\\Smile',
+    // Class Aliases could be defined here
 ];
